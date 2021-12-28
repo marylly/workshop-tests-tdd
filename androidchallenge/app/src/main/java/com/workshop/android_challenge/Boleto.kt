@@ -4,7 +4,4 @@ class Boleto(
     val dueDate: String,
     val amount: Double,
     val receiver: String
-) {
-
-
-}
+)
