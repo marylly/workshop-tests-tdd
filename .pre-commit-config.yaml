@@ -1,0 +1,14 @@
+---
+
+repos:
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: v0.11.0
+    hooks:
+      - id: markdownlint
+        args:
+          - --rules
+          - ~MD029,~MD013,~MD033,~MD034
+
+default_stages:
+  - commit
+  - merge-commit
