@@ -1,7 +1,10 @@
 # Workshop de Testes Guiados por Testes (TDD - Test-Driven Development)
 
+## Contexto / Motivação do Projeto
+Em muitos projetos de desenvolvimento de software há uma lacuna de conhecimento prático sobre desenvolvimento nos moldes do TDD.
+
 ## Objetivo deste Repositório
-Este workshop foi desenhado de forma que o aprendizado e a prática de TDD fosse possível em qualquer linguagem que permite a prática, com suas particularidades e ferramentas, com foco na forma de pensar no processo de desenvolvimento de código de ambiente de produção independente do seu contexto (backend, frontend, mobile, etc), desmistifacando que só é possível fazer testes no backend e com determinadas ferramentas e apoiando o processo contínuo de entrega de código limpo, mínimo e de qualidade.
+Este workshop foi desenhado de forma que o aprendizado e a prática de TDD fosse possível em qualquer linguagem que permite a prática, com suas particularidades e ferramentas, com foco na forma de pensar no processo de desenvolvimento de código de ambiente de produção independente do seu contexto (backend, frontend, mobile, etc), desmistificando que só é possível fazer testes no backend e com determinadas ferramentas e apoiando o processo contínuo de entrega de código limpo, manutenível mínimamente e com qualidade.
 
 ## Dojo - Exercício Prático
 Existe a prática de Dojo que é um processo em grupo onde são feitos os testes e o código da implementação que atende ao teste definido e rotacionando entre as pessoas pessoas exercitando a construção em equipe e o pareamento entre as pessoas.
