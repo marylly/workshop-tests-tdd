@@ -1,0 +1,47 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "configure",
+            "hidden": false,
+            "description": "Configure project",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "g++"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "build",
+            "hidden": false,
+            "description": "Build project",
+            "configurePreset": "configure",
+            "targets": [
+                "main",
+                "SuiteTest"
+            ]
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "SuiteTest",
+            "description": "",
+            "displayName": "",
+            "configurePreset": "configure",
+            "hidden": true,
+            "execution": {
+                "stopOnFailure": true
+            },
+            "configuration": "Debug"
+        },
+        {
+            "name": "Tests",
+            "description": "",
+            "displayName": "",
+            "inherits": [
+                "SuiteTest"
+            ]
+        }
+    ]
+}

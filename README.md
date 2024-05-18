@@ -17,6 +17,7 @@ Este repositório está aberto a forks e contribuições para que possamos ter u
 
 ## Linguagens disponíveis
 
+[C++](cppchallenge/README.md)
 [Kotlin Android](androidchallenge/README.md)
 [JavaScript](javascriptchallenge/README.md)
 
